@@ -17,6 +17,7 @@
     <maven.compiler.source>11</maven.compiler.source>
     <maven.compiler.target>11</maven.compiler.target>
     <mybatis.version>3.5.5</mybatis.version>
+    <h2.version>1.4.200</h2.version>
   </properties>
 
   <dependencies>
@@ -24,6 +25,12 @@
       <groupId>org.mybatis</groupId>
       <artifactId>mybatis</artifactId>
       <version>${mybatis.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.h2database</groupId>
+      <artifactId>h2</artifactId>
+      <version>1.4.200</version>
+      <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>junit</groupId>

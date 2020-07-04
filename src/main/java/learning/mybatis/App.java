@@ -1,13 +1,9 @@
 package learning.mybatis;
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+import javax.sql.DataSource;
+
+public class App {
+    public static void main( String[] args ) {
+        DataSource dataSource 
     }
 }
